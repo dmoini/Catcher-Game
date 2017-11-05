@@ -1,0 +1,51 @@
+canvas.playing {
+    border: solid 1px gray;
+    display: block;
+    margin: auto;
+    width: 1024px;
+    background-image: url(http://img04.deviantart.net/aa7d/i/2016/035/c/9/background___snowy_by_original58-d9qiqup.png);
+}
+
+canvas.paused {
+    border: solid 1px gray;
+    display: block;
+    margin: auto;
+    width: 1024px;
+}
+
+h4 {
+    text-align: center;
+}
+
+p.buttons {
+    text-align: center;
+}
+
+p.playerScore, p.playerLives, p.bonusScore, p.extraLife {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    width: 1024px;
+    margin: auto;
+}
+
+td.tableDescriptions {
+    width: 35%;
+    text-align: right;
+}
+
+td.javascriptVariables {
+    width: 14.9%;
+    text-align: left;
+}
+
+td.tableSpace {
+    width: 0.2%;
+}

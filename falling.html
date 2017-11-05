@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Catcher Game</title>
+    <link rel="stylesheet" href="falling.css">
+    <h1>Catcher Game</h1>
+    <h4 class="instructions">Catch as many falling objects as you can to earn as many points as you can.</h4>
+</head>
+
+<body>
+    <!-- This starter code only contains the area in which the game graphics get drawn.
+         Feel free to add more elements for displays like scores, lives left, player
+         statistics, instructions, etc. -->
+    <table>
+        <tr>
+            <td class="tableDescriptions">Score: </td>
+            <td class="tableSpace"></td>
+            <td class="javascriptVariables" id="score"></td>
+            <td class="tableDescriptions">Lives: </td>
+            <td class="tableSpace"></td>
+            <td class="javascriptVariables" id="lives"></td>
+        </tr>
+        <tr>
+            <td class="tableDescriptions">Caught Fallers Away From Bonus Score: </td>
+            <td class="tableSpace"></td>
+            <td class="javascriptVariables" id="fallersAwayFromBonusScore"></td>
+            <td class="tableDescriptions">Score Away From Extra Life: </td>
+            <td class="tableSpace"></td>
+            <td class="javascriptVariables" id="scoreAwayFromExtraLife"></td>
+        </tr>
+    </table>
+    <p></p>
+    <canvas id="game" width="1024" height="536" class="paused"></canvas>
+    <p class="buttons">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+        <button id="restartButton">Restart</button>
+    </p>
+    <script src="falling.js"></script>
+</body>
+
+</html>
